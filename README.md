@@ -14,10 +14,7 @@ This project involves developing a regression model to analyze and predict a tar
 - [Results](#results)
 - [Visualizations](#visualizations)
 - [Conclusion](#conclusion)
-- [Future Improvements](#future-improvements)
-- [Repository Structure](#repository-structure)
-- [How to Use](#how-to-use)
-- [Contact](#contact)
+
 
 ## Project Overview
 
@@ -68,35 +65,19 @@ Two methods are used to detect and handle outliers in the data:
 
 The box plot displays the spread and detects outliers for different features. The dots outside the box represent outliers that were identified and handled.
 
-![Box Plot](![image](https://github.com/user-attachments/assets/0441a183-6f16-4e8c-ae19-7946905d7a0d)
+![image](https://github.com/user-attachments/assets/0441a183-6f16-4e8c-ae19-7946905d7a0d)
 )
 ### Scatter Plot
 
 This plot shows the relationship between "Newspaper" and "Sales." It displays a general upward trend but with some randomness, indicating a moderate correlation.
 
-![Scatter Plot](![image](https://github.com/user-attachments/assets/4d63cf8c-2641-4f3c-b3bd-a82c99513e68)
-)
+![image](https://github.com/user-attachments/assets/e152e314-f031-4416-a816-a73206845805)
+
 
 
 ## Conclusion
 
 The project successfully builds a linear regression model with good performance metrics (RMSE and R² score). Outlier detection and removal improved the model's accuracy. Data visualizations provided valuable insights into feature relationships and distributions, enhancing model interpretation and reliability.
 
-## Future Improvements
-
-- Experiment with different regression models (e.g., Ridge, Lasso) for potentially better performance.
-- Further feature engineering and selection to improve model accuracy.
-- Cross-validation to ensure the model generalizes well to unseen data.
-
-## Repository Structure
-
-- `data/`: Contains the dataset.
-- `notebooks/`: Jupyter notebooks used for data analysis and modeling.
-- `images/`: Visualizations generated during the analysis.
-  - `scatter_plot.png`
-  - `histogram.png`
-  - `box_plot.png`
-  - `correlation_heatmap.png`
-- `README.md`: Project overview and details.
 
 
